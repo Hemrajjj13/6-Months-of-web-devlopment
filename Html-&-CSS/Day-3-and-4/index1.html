@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 5 - CSS Mastery</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">LOGO</div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+    </div>
+  </nav>
+
+  <!-- Flexbox Section -->
+  <section class="flex-container">
+    <div class="flex-item" style="order: 2;">Box 1</div>
+    <div class="flex-item" style="order: 1; flex-grow:2;">Box 2</div>
+    <div class="flex-item">Box 3</div>
+    <div class="flex-item">Box 4</div>
+  </section>
+
+  <!-- Positioning Demo -->
+  <section class="position-demo">
+    <div class="child-absolute">Absolute Positioned</div>
+  </section>
+
+  <div class="sticky-box">I stick when you scroll</div>
+
+  <!-- Float + Clear Demo -->
+  <section class="float-demo">
+    <img src="https://picsum.photos/200" alt="demo">
+    <p>This text is forced below the image because we applied <b>clear: both;</b>. Float is an old layout method, but still useful for wrapping text around images.</p>
+  </section>
+</body>
+</html>
